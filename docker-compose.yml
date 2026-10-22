@@ -1,0 +1,32 @@
+services:
+  standardizer:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      STANDARDIZER_OUTPUT_DIR: /data/standardized
+      STANDARDIZER_DB_PATH: /data/standardizer.db
+      STANDARDIZER_OLLAMA_URL: http://ollama:11434
+    ports:
+      - "127.0.0.1:8088:8088"
+    volumes:
+      - standardizer-data:/data
+    depends_on:
+      ollama:
+        condition: service_healthy
+
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    volumes:
+      - ollama-data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  standardizer-data:
+  ollama-data:
