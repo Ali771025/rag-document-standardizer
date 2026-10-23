@@ -1,5 +1,10 @@
 # استانداردسازی اسناد و دانش برای RAG
 
+<!-- project-contact:start -->
+**درخواست پروژه و همکاری با یوسف عمرانی:** [ارسال ایمیل](mailto:aliomrani916@gmail.com) · **aliomrani916@gmail.com** · [خدمات و تماس](https://ali771025.github.io/software-portfolio/contact/) · [معرفی نمونه‌کار](https://ali771025.github.io/software-portfolio/#projects)
+<!-- project-contact:end -->
+
+
 [معرفی و ساختار کد](../README.md) · [معماری](ARCHITECTURE.md)
 
 این مخزن نسخه کم‌حجم سورس برای بررسی نمونه‌کار و گفت‌وگو درباره همکاری است. معرفی دقیق قابلیت‌های موجود در کد و پیش‌نیازهای اجرا در صفحه اصلی آمده است؛ سطح بلوغ هر پروژه باید از بخش محدودیت‌ها خوانده شود.

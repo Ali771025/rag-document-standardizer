@@ -2,6 +2,11 @@
 
 # RAG Document Standardizer
 
+<!-- project-contact:start -->
+**Work with Yosof Omrani:** [Email a project inquiry](mailto:aliomrani916@gmail.com) · **aliomrani916@gmail.com** · [Services & contact](https://ali771025.github.io/software-portfolio/en/contact/) · [Portfolio walkthrough](https://ali771025.github.io/software-portfolio/en/#projects)
+<!-- project-contact:end -->
+
+
 **Persian SQL/Markdown knowledge-base standardization with deterministic validation, optional local LLM enrichment, and human approval.**
 
 [فارسی](docs/README.fa.md) · [Architecture](docs/ARCHITECTURE.md) · [Publication scope](docs/PUBLIC_EDITION.md)
